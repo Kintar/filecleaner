@@ -6,3 +6,8 @@ type Config struct {
 	Recursive   bool     `koanf:"recursive"`
 	OutputFile  string   `koanf:"output"`
 }
+
+type FileEntry struct {
+	Path     string
+	Checksum []byte
+}
